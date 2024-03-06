@@ -1,0 +1,18 @@
+1. What is a constructor?
+
+1. Ans : - A constructor is a special method in object-oriented programming that is automatically called when an instance of a class is created. It is used to initialize the object's state.
+
+2. Ans :- Constructor chaining refers to the process of one constructor calling another constructor in the same class or in its superclass. This allows for code reuse and ensures that initialization logic is properly executed.
+
+3. Ans :- Without more context, it's difficult to provide a specific interpretation of this statement. It appears to be discussing some aspect of constructors in relation to classes and subclasses.
+
+4. Ans :- The choice of which constructor to use depends on the specific requirements of your program and the data you need to initialize an object with. Typically, constructors with parameters are used when you need to initialize an object with specific values, while default constructors are used when no explicit initialization is required.
+
+5. Ans :- A no-argument constructor, also known as a default constructor, is a constructor that takes no parameters. It is often provided by default if no other constructors are explicitly defined in a class. It initializes the object with default values or performs other necessary setup tasks.
+
+6. Ans :- No, a no-argument constructor and a default constructor typically refer to the same thing. Both terms describe a constructor that takes no parameters and is provided by default if no other constructors are defined.
+
+7. Ans :- Constructor overloading occurs when a class has multiple constructors with different parameter lists. This allows objects to be initialized in different ways depending on the arguments provided.
+
+
+8. Ans :- When a subclass (extended class) is created and it does not explicitly call a superclass constructor, the default constructor of the superclass is implicitly called. If the superclass has its own constructors, the subclass can choose to call one of those constructors explicitly using the super() keyword, or the default constructor of the superclass will be called automatically.
